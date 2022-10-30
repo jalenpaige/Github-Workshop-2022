@@ -1,0 +1,48 @@
+Hey Guys! Thanks for coming to my git Workshop!
+
+Here are some helpful commands in case you forget.
+
+--------------------------- Dealing with Local Repository ---------------------------
+
+$ git add .
+Adds all the files in your current directory to the staging area.
+
+$ git add *
+Adds all edited, new, or removed files to the staging area.
+
+$ git add <Regex> 
+Adds any files that match a given Regex. If you don't know what this is don't worry about it. 
+An example would be <$git add *.c> this would add any file that ends with .c to the staging area
+
+$git add <filename> 
+Adds the files called <filename> to the staging area
+
+$git reset <filename> 
+Remove a file from the staging area
+
+$ git commit -m "Your Commit Message"
+commits all of the changes from the staging area to the current branch of the local version of your repository. 
+These changes are now perminant in that branch. (Kinda, there are ways to undo things if you really need to)
+
+$git branch
+list all of the current branches present in your local repository
+
+$git branch <branch name> 
+create a new branch called <branch name> based on the current branch
+
+$git checkout <branch name> 
+changes the current branch to be <branch name> 
+The current branch is also called the HEAD
+
+$ git merge <branch name> 
+Merge all the commits from <branch name> into the current branch. CAN RESULT IN MERGE CONFLICTS!
+
+--------------------------- Dealing with Remote Repository ---------------------------
+
+$ git pull
+Merge all the commits from the remote repository with your local repository. 
+
+$ git push
+Merge all the commits from your local repository with the remote repository.
+
+
